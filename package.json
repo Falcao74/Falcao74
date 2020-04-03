@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-testes",
+  "version": "1.0.0",
+  "description": "Testes de nodejs + graphql + react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Falcao74/Falcao74.git"
+  },
+  "keywords": [
+    "node",
+    "graphql",
+    "react"
+  ],
+  "author": "Guaraci Barga Nascimento Falcão",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Falcao74/Falcao74/issues"
+  },
+  "homepage": "https://github.com/Falcao74/Falcao74#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphiql": "^0.17.5",
+    "graphql": "^14.6.0"
+  }
+}
