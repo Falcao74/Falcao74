@@ -1,0 +1,7 @@
+{
+    "env" : {
+        "MONGO_USER" : "guara",
+        "MONGO_PASS" : "CCuPw1T10fSz5Wyz",
+        "MONGO_DB" : "events-dev"
+    }
+}
