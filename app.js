@@ -126,7 +126,8 @@ app.use('/graphql', graphqlHttp({
     graphiql: true
 })
 );
-mongoose.connect(`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@cluster0-anhyt.gcp.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`)
+mongoose.set('useUnifiedTopology', true);
+mongoose.connect(`mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@cluster0-anhyt.gcp.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`, {useNewUrlParser: true})
     .then(() => {
         app.listen(3000);
     })
